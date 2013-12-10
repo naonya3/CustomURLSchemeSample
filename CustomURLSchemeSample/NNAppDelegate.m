@@ -8,7 +8,7 @@
 
 #import "NNAppDelegate.h"
 
-#import "Routs.h"
+#import "Routes.h"
 #import "ViewController.h"
 
 @implementation NNAppDelegate
@@ -25,7 +25,7 @@
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     if ([[url scheme] isEqualToString:@"me.naonya3.schemesample"]) {
-        return [[Routs new] openURL:url];
+        return [[Routes new] openURL:url];
     }
     return NO;
 }

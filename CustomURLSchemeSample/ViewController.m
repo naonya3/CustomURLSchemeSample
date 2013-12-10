@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Routs.h"
+#import "Routes.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -37,7 +37,7 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"me.naonya3.schemesample://open/page1"]];
     
     // 以下の方法を検討したほうが良い
-//    [[Routs new] openURL:[NSURL URLWithString:@"me.naonya3.schemesample://open/page1"]];
+//    [[Routes new] openURL:[NSURL URLWithString:@"me.naonya3.schemesample://open/page1"]];
 }
 
 @end

@@ -25,7 +25,7 @@
 		87E376E11855DA0400543608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E376C91855DA0400543608 /* UIKit.framework */; };
 		87E376E91855DA0400543608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E376E71855DA0400543608 /* InfoPlist.strings */; };
 		87E376EB1855DA0400543608 /* CustomURLSchemeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E376EA1855DA0400543608 /* CustomURLSchemeSampleTests.m */; };
-		87E376F61855DB2A00543608 /* Routs.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E376F51855DB2A00543608 /* Routs.m */; };
+		87E376F61855DB2A00543608 /* Routes.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E376F51855DB2A00543608 /* Routes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,8 @@
 		87E376E61855DA0400543608 /* CustomURLSchemeSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomURLSchemeSampleTests-Info.plist"; sourceTree = "<group>"; };
 		87E376E81855DA0400543608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87E376EA1855DA0400543608 /* CustomURLSchemeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomURLSchemeSampleTests.m; sourceTree = "<group>"; };
-		87E376F41855DB2A00543608 /* Routs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routs.h; sourceTree = "<group>"; };
-		87E376F51855DB2A00543608 /* Routs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routs.m; sourceTree = "<group>"; };
+		87E376F41855DB2A00543608 /* Routes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routes.h; sourceTree = "<group>"; };
+		87E376F51855DB2A00543608 /* Routes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +157,8 @@
 				87E376D51855DA0400543608 /* NNAppDelegate.m */,
 				87E376D71855DA0400543608 /* Images.xcassets */,
 				87E376CC1855DA0400543608 /* Supporting Files */,
-				87E376F41855DB2A00543608 /* Routs.h */,
-				87E376F51855DB2A00543608 /* Routs.m */,
+				87E376F41855DB2A00543608 /* Routes.h */,
+				87E376F51855DB2A00543608 /* Routes.m */,
 				874CB8E11855DCD00008BC56 /* ControllerProtocol.h */,
 			);
 			path = CustomURLSchemeSample;
@@ -293,7 +293,7 @@
 			files = (
 				874CB8F21855F5270008BC56 /* ViewController.m in Sources */,
 				874CB8E51855DE5C0008BC56 /* AlertController.m in Sources */,
-				87E376F61855DB2A00543608 /* Routs.m in Sources */,
+				87E376F61855DB2A00543608 /* Routes.m in Sources */,
 				87E376D61855DA0400543608 /* NNAppDelegate.m in Sources */,
 				87E376D21855DA0400543608 /* main.m in Sources */,
 				874CB8E81855F44B0008BC56 /* OpenController.m in Sources */,
